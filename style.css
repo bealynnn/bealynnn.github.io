@@ -165,7 +165,7 @@ ul{
 
 #about {
     margin-top: 0;
-    background-image: linear-gradient(rgba(12,25,46,0.85), rgba(12,25,46,0.9)),url("background4.png");
+    background-image: linear-gradient(rgba(12,25,46,0.85), rgba(12,25,46,0.9)),url("background2.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -372,7 +372,7 @@ ul{
 /* PROJECTS SECTION */
 
 #projects {
-    background-image: linear-gradient(rgba(12,25,46,0.85), rgba(12,25,46,0.9)),url("background4.png");
+    background-image: linear-gradient(rgba(12,25,46,0.85), rgba(12,25,46,0.9)),url("background2.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
