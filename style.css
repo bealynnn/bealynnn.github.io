@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -40,6 +39,7 @@ ul{
     display: flex;
     align-items: center;
     margin-right: 40px;
+    margin-bottom: -10px;
 }
 
 
@@ -75,24 +75,25 @@ ul{
 }
 
 
-.main-page a {
+.home a {
     font-size: 18px;
     color: #e0fbfc;
+    margin-left: 50px;
     text-decoration: none;
     position: relative;
     transition: color 0.3s, transform 0.2s;
 }
 
-.main-page li a:hover {
+.home li a:hover {
   color: #00f5d4;
   transform: translateY(-2px);
 }
-.main-page a:hover {
+.home a:hover {
     color: #00f5d4;
     transform: scale(1.05);
 }
 
-.main-page a::after {
+.home a::after {
     content: '';
     position: absolute;
     width: 0;
@@ -104,11 +105,19 @@ ul{
 }
 
 
-.main-page a:hover::after {
+.home a:hover::after {
     width: 100%; 
 }
 
+.logo {
+    position:left;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -27px;
 
+
+}
 .hero-image{
     height:90vh;
     background-image: linear-gradient(rgba(12,25,46,0.85), rgba(12,25,46,0.9)),url("background1.png");
@@ -123,11 +132,12 @@ ul{
 }
 
 .hero-content h1{
-    font-size: 80px;
+    font-size: 100px;
     color: #a6e9eb;
     text-align: center ;
-    font-family: 'Avantgarde';
-    font-weight: 100;
+    font-family:"Libertinus Serif", serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 0px;
     text-shadow: 3px 3px 12px rgba(0,0,0,0.5);
 }
