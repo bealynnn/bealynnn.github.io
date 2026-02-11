@@ -172,7 +172,6 @@ ul{
     padding: 40px;
     display: flex;
     justify-content: center;
-    position: relative;
     scroll-margin-top: 60px;
 }
 
@@ -264,13 +263,9 @@ ul{
     font-weight: 300;
 }
 
-.description {
-    margin: 40px auto 0;
-    line-height: 1.9;
+.about-container p{
     text-align: justify;
-    max-width: 100%;
     font-size: 14px;
-    opacity: 0.95;
     color: #e0e0e0;
     line-height: 20px;
 }
